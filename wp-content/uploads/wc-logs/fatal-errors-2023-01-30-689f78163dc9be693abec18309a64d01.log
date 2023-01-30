@@ -1,0 +1,178 @@
+2023-01-30T14:36:21+00:00 CRITICAL Cannot redeclare wp_get_current_user() (previously declared in /Applications/MAMP/htdocs/quisto/wp-includes/pluggable.php:70) in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 165
+
+2023-01-30T14:38:06+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 171
+
+2023-01-30T14:40:40+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php:144
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): postalcode_checkout_field_process('')
+#1 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1236): do_action('woocommerce_che...')
+#4 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#5 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): WC_AJAX::checkout('')
+#6 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(517): WP_Hook->do_ac in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 144
+
+2023-01-30T14:42:30+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php:144
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): postalcode_checkout_field_process('')
+#1 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1236): do_action('woocommerce_che...')
+#4 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#5 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): WC_AJAX::checkout('')
+#6 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(517): WP_Hook->do_ac in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 144
+
+2023-01-30T14:42:40+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php:144
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): postalcode_checkout_field_process('')
+#1 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1236): do_action('woocommerce_che...')
+#4 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#5 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): WC_AJAX::checkout('')
+#6 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(517): WP_Hook->do_ac in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 144
+
+2023-01-30T15:52:02+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 183
+
+2023-01-30T15:52:15+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function bbloomer_show_sale_percentage_loop(), 1 passed in /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php:176
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): bbloomer_show_sale_percentage_loop('')
+#1 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/templates/content-product.php(42): do_action('woocommerce_bef...')
+#4 /Applications/MAMP/htdocs/quisto/wp-includes/template.php(785): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Applications/M...', false)
+#6 /Applications/MAMP/htdocs/quis in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 176
+
+2023-01-30T15:52:54+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function bbloomer_show_sale_percentage_loop(), 1 passed in /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php:176
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): bbloomer_show_sale_percentage_loop('')
+#1 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/templates/content-product.php(42): do_action('woocommerce_bef...')
+#4 /Applications/MAMP/htdocs/quisto/wp-includes/template.php(785): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Applications/M...', false)
+#6 /Applications/MAMP/htdocs/quis in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 176
+
+2023-01-30T15:54:19+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function bbloomer_show_sale_percentage_loop(), 1 passed in /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php:176
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): bbloomer_show_sale_percentage_loop('')
+#1 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/templates/content-product.php(42): do_action('woocommerce_bef...')
+#4 /Applications/MAMP/htdocs/quisto/wp-includes/template.php(785): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Applications/M...', false)
+#6 /Applications/MAMP/htdocs/quis in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 176
+
+2023-01-30T15:54:36+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function bbloomer_show_sale_percentage_loop(), 1 passed in /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php:176
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): bbloomer_show_sale_percentage_loop('')
+#1 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/templates/content-product.php(42): do_action('woocommerce_bef...')
+#4 /Applications/MAMP/htdocs/quisto/wp-includes/template.php(785): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Applications/M...', false)
+#6 /Applications/MAMP/htdocs/quis in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 176
+
+2023-01-30T15:54:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function bbloomer_show_sale_percentage_loop(), 1 passed in /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php:176
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): bbloomer_show_sale_percentage_loop('')
+#1 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/templates/content-product.php(42): do_action('woocommerce_bef...')
+#4 /Applications/MAMP/htdocs/quisto/wp-includes/template.php(785): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Applications/M...', false)
+#6 /Applications/MAMP/htdocs/quis in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 176
+
+2023-01-30T16:21:12+00:00 CRITICAL syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 200
+
+2023-01-30T18:54:31+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on string in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php:180
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): change_displayed_sale_price_html('<span class="wo...', Object(WC_Product_Simple))
+#1 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1872): apply_filters('woocommerce_get...', '<span class="wo...', Object(WC_Product_Simple))
+#3 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/templates/loop/price.php(25): WC_Product->get_price_html()
+#4 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1390): wc_get_template('loop/pr in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 180
+
+2023-01-30T19:13:00+00:00 CRITICAL syntax error, unexpected '$prev_price' (T_VARIABLE) in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 179
+
+2023-01-30T19:13:15+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on null in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php:178
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): change_displayed_sale_price_html('<span class="wo...', Object(WC_Product_Simple))
+#1 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1872): apply_filters('woocommerce_get...', '<span class="wo...', Object(WC_Product_Simple))
+#3 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/templates/loop/price.php(25): WC_Product->get_price_html()
+#4 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1390): wc_get_template( in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 178
+
+2023-01-30T19:13:17+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on null in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php:178
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): change_displayed_sale_price_html('<span class="wo...', Object(WC_Product_Simple))
+#1 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1872): apply_filters('woocommerce_get...', '<span class="wo...', Object(WC_Product_Simple))
+#3 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/templates/loop/price.php(25): WC_Product->get_price_html()
+#4 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1390): wc_get_template( in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 178
+
+2023-01-30T19:13:57+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on null in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php:178
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): change_displayed_sale_price_html('<span class="wo...', Object(WC_Product_Simple))
+#1 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1872): apply_filters('woocommerce_get...', '<span class="wo...', Object(WC_Product_Simple))
+#3 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/templates/loop/price.php(25): WC_Product->get_price_html()
+#4 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1390): wc_get_template( in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 178
+
+2023-01-30T19:14:28+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on null in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php:178
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): change_displayed_sale_price_html('<span class="wo...', Object(WC_Product_Simple))
+#1 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1872): apply_filters('woocommerce_get...', '<span class="wo...', Object(WC_Product_Simple))
+#3 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/templates/loop/price.php(25): WC_Product->get_price_html()
+#4 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1390): wc_get_template( in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 178
+
+2023-01-30T19:14:46+00:00 CRITICAL Uncaught Error: Call to undefined function int() in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php:178
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): change_displayed_sale_price_html('<span class="wo...', Object(WC_Product_Simple))
+#1 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1872): apply_filters('woocommerce_get...', '<span class="wo...', Object(WC_Product_Simple))
+#3 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/templates/loop/price.php(25): WC_Product->get_price_html()
+#4 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1390): wc_get_template('loop/price.php')
+#6  in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 178
+
+2023-01-30T19:16:23+00:00 CRITICAL Uncaught Error: Call to undefined function float() in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php:180
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): change_displayed_sale_price_html('<span class="wo...', Object(WC_Product_Simple))
+#1 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1872): apply_filters('woocommerce_get...', '<span class="wo...', Object(WC_Product_Simple))
+#3 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/templates/loop/price.php(25): WC_Product->get_price_html()
+#4 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1390): wc_get_template('loop/price.php')
+# in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 180
+
+2023-01-30T19:16:26+00:00 CRITICAL Uncaught Error: Call to undefined function float() in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php:180
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): change_displayed_sale_price_html('<span class="wo...', Object(WC_Product_Simple))
+#1 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1872): apply_filters('woocommerce_get...', '<span class="wo...', Object(WC_Product_Simple))
+#3 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/templates/loop/price.php(25): WC_Product->get_price_html()
+#4 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1390): wc_get_template('loop/price.php')
+# in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 180
+
+2023-01-30T19:16:50+00:00 CRITICAL Uncaught Error: Call to undefined function float() in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php:179
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-includes/class-wp-hook.php(308): change_displayed_sale_price_html('<span class="wo...', Object(WC_Product_Simple))
+#1 /Applications/MAMP/htdocs/quisto/wp-includes/plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1872): apply_filters('woocommerce_get...', '<span class="wo...', Object(WC_Product_Simple))
+#3 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/templates/loop/price.php(25): WC_Product->get_price_html()
+#4 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/quisto/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1390): wc_get_template('loop/price.php')
+# in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php on line 179
+

@@ -1,0 +1,38 @@
+2023-01-28T00:42:31+00:00 CRITICAL syntax error, unexpected 'elseif' (T_ELSEIF) in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php alla riga 109
+
+2023-01-28T00:42:42+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php alla riga 109
+
+2023-01-28T00:42:42+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php alla riga 109
+
+2023-01-28T01:08:26+00:00 CRITICAL syntax error, unexpected '{' in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php alla riga 101
+
+2023-01-28T01:09:48+00:00 CRITICAL syntax error, unexpected '{' in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php alla riga 101
+
+2023-01-28T01:10:16+00:00 CRITICAL syntax error, unexpected '{' in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php alla riga 101
+
+2023-01-28T01:10:50+00:00 CRITICAL syntax error, unexpected '{' in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php alla riga 101
+
+2023-01-28T01:34:29+00:00 CRITICAL syntax error, unexpected '{', expecting '(' in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php alla riga 104
+
+2023-01-28T01:34:50+00:00 CRITICAL syntax error, unexpected '{', expecting '(' in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php alla riga 104
+
+2023-01-28T12:43:13+00:00 CRITICAL Uncaught Error: Call to a member function has_errors() on null in /Applications/MAMP/htdocs/quisto/wp-includes/user.php:3385
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-login.php(1049): register_new_user('jijiijijjiijij', 'iujij9hhuu@huhu...')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/quisto/wp-includes/user.php alla riga 3385
+
+2023-01-28T12:45:47+00:00 CRITICAL Uncaught Error: Call to a member function has_errors() on null in /Applications/MAMP/htdocs/quisto/wp-includes/user.php:3385
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-login.php(1049): register_new_user('jijiijijjiijij', 'iujij9hhuu@huhu...')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/quisto/wp-includes/user.php alla riga 3385
+
+2023-01-28T12:48:14+00:00 CRITICAL Uncaught Error: Call to a member function has_errors() on null in /Applications/MAMP/htdocs/quisto/wp-includes/user.php:3385
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-login.php(1049): register_new_user('jijiijijjiijij', 'iujij9hhuu@huhu...')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/quisto/wp-includes/user.php alla riga 3385
+
+2023-01-28T14:19:57+00:00 CRITICAL syntax error, unexpected 'update_user_meta' (T_STRING) in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php alla riga 119
+

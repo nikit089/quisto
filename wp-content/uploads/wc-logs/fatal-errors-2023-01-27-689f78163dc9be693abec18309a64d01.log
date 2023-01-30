@@ -1,0 +1,60 @@
+2023-01-27T22:50:34+00:00 CRITICAL Uncaught Error: Call to a member function has_errors() on null in /Applications/MAMP/htdocs/quisto/wp-includes/user.php:3385
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-login.php(1049): register_new_user('niccoloddd', 'nidd@fff.com')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/quisto/wp-includes/user.php alla riga 3385
+
+2023-01-27T23:04:47+00:00 CRITICAL Uncaught Error: Call to a member function has_errors() on null in /Applications/MAMP/htdocs/quisto/wp-includes/user.php:3385
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-login.php(1049): register_new_user('niccoloddd', 'nidd@fff.com')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/quisto/wp-includes/user.php alla riga 3385
+
+2023-01-27T23:09:22+00:00 CRITICAL syntax error, unexpected '=', expecting ';' or ',' in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php alla riga 107
+
+2023-01-27T23:10:35+00:00 CRITICAL Uncaught Error: Call to a member function has_errors() on null in /Applications/MAMP/htdocs/quisto/wp-includes/user.php:3385
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-login.php(1049): register_new_user('niccoloddd', 'nidd@fff.com')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/quisto/wp-includes/user.php alla riga 3385
+
+2023-01-27T23:10:43+00:00 CRITICAL Uncaught Error: Call to a member function has_errors() on null in /Applications/MAMP/htdocs/quisto/wp-includes/user.php:3385
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-login.php(1049): register_new_user('niccoloddd', 'nidd@fff.com')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/quisto/wp-includes/user.php alla riga 3385
+
+2023-01-27T23:10:47+00:00 CRITICAL Uncaught Error: Call to a member function has_errors() on null in /Applications/MAMP/htdocs/quisto/wp-includes/user.php:3385
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-login.php(1049): register_new_user('niccoloddd', 'nidd@fff.com')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/quisto/wp-includes/user.php alla riga 3385
+
+2023-01-27T23:11:22+00:00 CRITICAL Uncaught Error: Call to a member function has_errors() on null in /Applications/MAMP/htdocs/quisto/wp-includes/user.php:3385
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-login.php(1049): register_new_user('niccoloddd', 'nidd@fff.com')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/quisto/wp-includes/user.php alla riga 3385
+
+2023-01-27T23:12:22+00:00 CRITICAL Uncaught Error: Call to a member function has_errors() on null in /Applications/MAMP/htdocs/quisto/wp-includes/user.php:3385
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-login.php(1049): register_new_user('niccolo233', 'dedef@ggfdf.com')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/quisto/wp-includes/user.php alla riga 3385
+
+2023-01-27T23:14:19+00:00 CRITICAL Uncaught Error: Call to a member function has_errors() on null in /Applications/MAMP/htdocs/quisto/wp-includes/user.php:3385
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-login.php(1049): register_new_user('niccolo233', 'dedef@ggfdf.com')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/quisto/wp-includes/user.php alla riga 3385
+
+2023-01-27T23:14:35+00:00 CRITICAL Uncaught Error: Call to a member function has_errors() on null in /Applications/MAMP/htdocs/quisto/wp-includes/user.php:3385
+Stack trace:
+#0 /Applications/MAMP/htdocs/quisto/wp-login.php(1049): register_new_user('niccolo2233', 'dmie@few.com')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/quisto/wp-includes/user.php alla riga 3385
+
+2023-01-27T23:26:15+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php alla riga 119
+
+2023-01-27T23:26:16+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /Applications/MAMP/htdocs/quisto/wp-content/themes/storefront/functions.php alla riga 119
+
